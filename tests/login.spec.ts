@@ -1,7 +1,7 @@
 import { test } from '@playwright/test'
 import { LoginPage } from '../pages/login-page'
 
-test('login correcto',{tag: '@smoke'}, async ({ page }) => {
+test('login correcto',{tag: '@regression'}, async ({ page }) => {
   const variables = {
     username: 'standard_user',
     password: 'secret_sauce'

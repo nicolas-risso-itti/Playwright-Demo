@@ -19,10 +19,10 @@ export default defineConfig({
     baseURL: 'https://www.saucedemo.com/',
 
     /* Collect trace when retrying the failed test. See https://playwright.dev/docs/trace-viewer */
-    trace: 'retain-on-failure',
+    trace: 'on',
 
     /* Genera un screamshot si la prueba falla */
-    screenshot: 'only-on-failure',
+    screenshot: 'off',
   },
 
   /* Configure projects for major browsers */
